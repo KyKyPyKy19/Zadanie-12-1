@@ -1,0 +1,7 @@
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "B", "I", "C", "UP"]
+ignore = ["E501", "F401"]
+
+[tool.ruff.isort]
+known-first-party = ["games"]
