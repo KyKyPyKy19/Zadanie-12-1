@@ -1,6 +1,8 @@
 import math
 import random
+
 from games.engine import run_game
+
 
 def calculate_lcm(a, b, c):
     lcm_ab = (a * b) // math.gcd(a, b)

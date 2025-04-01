@@ -2,4 +2,6 @@ venv/
 __pycache__/
 *.pyc
 .env
-.vscode/" > .gitignore
+.vscode/
+.ruff_cache
+*.cast

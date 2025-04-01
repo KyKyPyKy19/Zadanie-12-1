@@ -1,5 +1,7 @@
 import random
+
 from games.engine import run_game
+
 
 def generate_round():
     length = random.randint(5, 10)
